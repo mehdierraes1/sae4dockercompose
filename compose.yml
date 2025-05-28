@@ -2,4 +2,4 @@ services:
   db:
     image: mariadb:latest
     environment:
-      - MANIADB_ROOT_PASSWORD=eliotmotdepasse
+      MANIADB_ROOT_PASSWORD: ${MANIADB_ROOT_PASSWORD}
