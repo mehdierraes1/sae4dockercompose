@@ -1,3 +1,5 @@
 services:
   db:
     image: mariadb:latest
+    environment:
+      - MANIADB_ROOT_PASSWORD=eliotmotdepasse
